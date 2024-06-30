@@ -24,7 +24,7 @@
 </head>
 <body>
 <div class="container">
-<h5 class="card-title" style="text-align: center">Laporan Pengunjung <br>PUSKESMAS SEHAT</h5>
+<h5 class="card-title" style="text-align: center">Laporan Pengunjung <br>PUSKESMAS KLATEN</h5>
     <div class="row">
         <div class="col">
             <div class="table-responsive">

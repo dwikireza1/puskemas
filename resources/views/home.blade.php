@@ -7,7 +7,7 @@
     <section id="hero" class="d-flex align-items-center">
         <div class="container">
             <h1>Selamat Datang</h1>
-            <h2>Di Rumah Sakit Kebumen 2</h2>
+            <h2>Di Puskesmas Klaten</h2>
             <a href="/antrian" class="btn-get-started scrollto">Ambil Antrian</a>
         </div>
     </section><!-- End Hero -->
@@ -184,19 +184,19 @@
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
                                 <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p>Alamat : Jl. Raya No. 181 Delanggu, Klaten, Jawa Tengah</p>
                             </div>
 
                             <div class="email">
                                 <i class="bi bi-envelope"></i>
                                 <h4>Email:</h4>
-                                <p>info@example.com</p>
+                                <p>puskemasklaten@gmail.com</p>
                             </div>
 
                             <div class="phone">
                                 <i class="bi bi-phone"></i>
                                 <h4>Call:</h4>
-                                <p>+1 5589 55488 55s</p>
+                                <p>(0272) 551040</p>
                             </div>
 
                         </div>
