@@ -7,7 +7,7 @@
     <section id="hero" class="d-flex align-items-center">
         <div class="container">
             <h1>Selamat Datang</h1>
-            <h2>Di Puskesmas Klaten</h2>
+            <h2>Di Puskesmas Delanggu</h2>
             <a href="/antrian" class="btn-get-started scrollto">Ambil Antrian</a>
         </div>
     </section><!-- End Hero -->
@@ -124,7 +124,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="count-box">
                             <i class="fas fa-user-md"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1"
+                            <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1"
                                 class="purecounter"></span>
                             <p>Doctors</p>
                         </div>
@@ -133,7 +133,7 @@
                     <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
                         <div class="count-box">
                             <i class="far fa-hospital"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1"
+                            <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1"
                                 class="purecounter"></span>
                             <p>Departments</p>
                         </div>
@@ -142,20 +142,13 @@
                     <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                         <div class="count-box">
                             <i class="fas fa-flask"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1"
+                            <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1"
                                 class="purecounter"></span>
                             <p>Research Labs</p>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-                        <div class="count-box">
-                            <i class="fas fa-award"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Awards</p>
-                        </div>
-                    </div>
+                    
 
                 </div>
 
@@ -190,7 +183,7 @@
                             <div class="email">
                                 <i class="bi bi-envelope"></i>
                                 <h4>Email:</h4>
-                                <p>puskemasklaten@gmail.com</p>
+                                <p>puskemasdelanggu@gmail.com</p>
                             </div>
 
                             <div class="phone">

@@ -127,6 +127,13 @@
                         </a>
                     </li>
                 </ul>
+                <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                    <li>
+                        <a href="/admin/Jadwaldokter">
+                            <i class="bi bi-circle"></i><span>Jadwal Dokter</span>
+                        </a>
+                    </li>
+                </ul>
             </li><!-- End Components Nav -->
 
 
