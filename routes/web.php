@@ -5,6 +5,7 @@ use App\Http\Controllers\DashboardAntrianController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DashboardLaporanController;
 use App\Http\Controllers\FrontAntrianController;
@@ -30,6 +31,8 @@ Route::resource('antrian', FrontAntrianController::class);
 Route::get('livewire/antrian/cetakAntrian', [FrontAntrianController::class, 'cetakAntrian'])->name('cetakAntrian');
 Route::resource('jadwal_dokter', JadwalDokterController::class);
 Route::get('/jadwal', [JadwalDokterController::class, 'index'])->name('dashboard.jadwal.index');
+Route::resource('users', UserController::class);
+Route::get('/profil', [UserController::class, 'show'])->middleware('auth')->name('dashboard.profil.index');
 
 
 Auth::routes();

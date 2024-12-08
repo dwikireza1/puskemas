@@ -1,4 +1,4 @@
- <!-- ======= Top Bar ======= -->
+
  <div id="topbar" class="d-flex align-items-center fixed-top">
      <div class="container d-flex justify-content-between">
          <div class="contact-info d-flex align-items-center">
@@ -7,7 +7,7 @@
          </div>
      </div>
  </div>
- <!-- ======= Header ======= -->
+
  <header id="header" class="fixed-top">
      <div class="container d-flex align-items-center">
 
@@ -33,6 +33,8 @@
                      @if (auth()->user()->roles === 'admin')
                          <li><a class="dropdown-item" href="/dashboard">Dashboard </a></li>
                      @else
+                         <li><a class="dropdown-item" href="/profil">Profil </a></li>
+
                          <li><a class="dropdown-item" href="/antrian">Menu Antrian </a></li>
                      @endif
 
@@ -50,4 +52,4 @@
          @endauth
 
      </div>
- </header><!-- End Header -->
+ </header>

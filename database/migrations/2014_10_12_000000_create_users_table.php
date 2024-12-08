@@ -19,7 +19,13 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->foreignId('role_id');
+            $table->foreignId('role_id'); 
+            $table->date('tgl_lahir');
+            $table->text('alamat'); 
+            $table->enum('jenis_kelamin', ['laki-laki', 'perempuan']); 
+            $table->string('no_ktp', 16)->unique(); 
+            $table->string('no_hp', 15); 
+            $table->string('pekerjaan'); 
             $table->rememberToken();
             $table->timestamps();
         });

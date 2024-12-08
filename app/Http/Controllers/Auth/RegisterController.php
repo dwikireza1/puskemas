@@ -60,10 +60,17 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'password' => ['required', 'string', 'min:8', 'confirmed'],
-            'role_id'   => ['required']
+                'name' => ['required', 'string', 'max:255'],
+                'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+                'password' => ['required', 'string', 'min:4', 'confirmed'],
+                'role_id' => ['required', 'integer'],
+                'tgl_lahir' => ['required', 'date'], 
+                'alamat' => ['required', 'string', 'max:500'], 
+                'jenis_kelamin' => ['required', 'in:Laki-laki,Perempuan'], 
+                'no_ktp' => ['required', 'digits:16', 'unique:users'], 
+                'no_hp' => ['required', 'string', 'regex:/^[0-9]{10,15}$/'], 
+                'pekerjaan' => ['required', 'string', 'max:255'], 
+            
         ]);
     }
 
@@ -79,7 +86,14 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-            'role_id'   => $data['role_id']
+            'role_id' => $data['role_id'],
+            'tgl_lahir' => $data['tgl_lahir'],
+            'alamat' => $data['alamat'],
+            'jenis_kelamin' => $data['jenis_kelamin'],
+            'no_ktp' => $data['no_ktp'],
+            'no_hp' => $data['no_hp'],
+            'pekerjaan' => $data['pekerjaan'],
         ]);
+        
     }
 }

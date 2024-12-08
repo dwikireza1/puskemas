@@ -7,7 +7,6 @@ use Illuminate\Http\Request;
 
 class JadwalDokterController extends Controller
 {
-    // Menampilkan daftar jadwal dokter
     public function index()
     {
         $jadwal_dokter = JadwalDokter::all(); 

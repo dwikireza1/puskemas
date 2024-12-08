@@ -11,10 +11,10 @@ class ShowJadwal extends Component
 {
     public $jadwals; // Data jadwal dokter
     public $nip, $nama_dokter, $poli, $sesi, $jam_mulai, $jam_selesai; 
-    public $updateMode;
+    public $updateMode = false;
     public $search;
     public $poli_filter; 
-    protected $queryString = ['search', 'poli_filter']; 
+    protected $queryString = ['search']; 
 
     public function render()
     {
@@ -24,12 +24,13 @@ class ShowJadwal extends Component
         })
         ->when($this->search, function($query) {
             $query->where('nama_dokter', 'like', '%' . $this->search . '%')
-                  ->orWhere('nip', 'like', '%' . $this->search . '%');
+                  ->orWhere('nip', 'like', '%' . $this->search . '%')
+                  ->orWhere('poli', 'like', '%' . $this->search . '%');
         })
         ->paginate(10);
 
 
-        $poli_list = JadwalDokter::select('poli')->distinct()->pluck('poli');
+        $poli_list = JadwalDokter::groupBy('poli')->pluck('poli');
 
         return view('livewire.jadwal.show-jadwal', [
             'jadwal_dokter' => $jadwal_dokter,
@@ -53,7 +54,7 @@ class ShowJadwal extends Component
         $this->validate([
             'nip' => 'required|unique:jadwal_dokter',
             'nama_dokter' => 'required',
-            'poli' => 'required',
+            'poli' => 'required|in:umum, gigi, tht, lansia & disabilitas, balita, kia & kb, nifas/pnc',
             'sesi' => 'required|in:Pagi,Siang,Sore,Malam',
             'jam_mulai' => 'required',
             'jam_selesai' => 'required',
@@ -89,7 +90,7 @@ class ShowJadwal extends Component
         $this->validate([
             'nip' => 'required|unique:jadwal_dokter,nip,' . $id,
             'nama_dokter' => 'required',
-            'poli' => 'required',
+            'poli' => 'required|in:umum, gigi, tht, lansia & disabilitas, balita, kia & kb, nifas/pnc',
             'sesi' => 'required|in:Pagi,Siang,Sore,Malam',
             'jam_mulai' => 'required',
             'jam_selesai' => 'required',

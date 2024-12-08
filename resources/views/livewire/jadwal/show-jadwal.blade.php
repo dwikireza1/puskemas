@@ -10,11 +10,11 @@
                 <div class="container">
                     <div class="card mt-3">
                         <div class="card-body">
-                            <div class="card-title">Jadwal Dokter</div>
+                            <div class="card-title"  style="text-align: center">Jadwal Dokter</div>
                             <div class="row">
                         <div class="col-md-3">
                             <div class="mb-3">
-                                <select class="form-select" wire:model="poli">
+                                <select class="form-select" wire:model="search">
                                     <option value="">Sortir Berdasarkan Poli</option>
                                     <option value="umum">Poli Umum</option>
                                     <option value="gigi">Poli Gigi</option>
@@ -48,8 +48,8 @@
                                             <tr style="text-align: center">
                                                 <td>{{ $loop->iteration }}</td>
                                                 <td>{{ $jadwal->nip }}</td>
-                                                <td>{{ $jadwal->nama_dokter }}</td>
-                                                <td>{{ $jadwal->poli }}</td>
+                                                <td><strong>{{ $jadwal->nama_dokter }}</strong></td>
+                                                <td>{{ ucwords ($jadwal->poli) }}</td>
                                                 <td>{{ $jadwal->sesi }}</td>
                                                 <td>{{ $jadwal->jam_mulai }}</td>
                                                 <td>{{ $jadwal->jam_selesai }}</td>

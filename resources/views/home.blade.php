@@ -21,7 +21,7 @@
                         <div class="content">
                             <h3>Sistem Antrian Online</h3>
                             <p>
-                                Ini adalah Sistem Antrian Online Rumah Sakit Kebumen 2 dimana setiap pengunjung dapat
+                                Ini adalah Sistem Antrian Online Puskesmas Delanggu dimana setiap pengunjung dapat
                                 mengambil antrian
                                 Sesuai Poliklinik terlebih dahulu dari rumah
                             </p>

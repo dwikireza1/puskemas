@@ -23,11 +23,10 @@
                                 </div>
                             @endif
 
-                            <form class="row g-3 needs-validation" action="{{ route('register') }}" method="post"
-                                novalidate>
+                            <form class="row g-3 needs-validation" action="{{ route('register') }}" method="post" novalidate>
                                 @csrf
 
-                                <input type="hidden" value="2" name="role_id">
+
                                 <div class="col-12">
                                     <label for="name" class="form-label">Nama</label>
                                     <input type="text" name="name" class="form-control" id="name" required>
@@ -48,7 +47,6 @@
                                     @enderror
                                 </div>
 
-
                                 <div class="col-12">
                                     <label for="password" class="form-label">Password</label>
                                     <input type="password" name="password" class="form-control" id="password" required>
@@ -60,10 +58,75 @@
                                 </div>
 
                                 <div class="col-12">
-                                    <label for="password" class="form-label">Konfirmasi Password</label>
-                                    <input type="password" name="password_confirmation" class="form-control"
-                                        id="password_confirmation" required>
+                                    <label for="password_confirmation" class="form-label">Konfirmasi Password</label>
+                                    <input type="password" name="password_confirmation" class="form-control" id="password_confirmation" required>
                                     @error('password_confirmation')
+                                        <span class="invalid-feedback" role="alert">
+                                            <p>{{ $message }}</p>
+                                        </span>
+                                    @enderror
+                                </div>
+
+                                <input type="hidden" value="2" name="role_id">
+
+                                <div class="col-12">
+                                    <label for="tgl_lahir" class="form-label">Tanggal Lahir</label>
+                                    <input type="date" name="tgl_lahir" class="form-control" id="tgl_lahir" required>
+                                    @error('tgl_lahir')
+                                        <span class="invalid-feedback" role="alert">
+                                            <p>{{ $message }}</p>
+                                        </span>
+                                    @enderror
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="alamat" class="form-label">Alamat</label>
+                                    <textarea name="alamat" class="form-control" id="alamat" rows="3" required></textarea>
+                                    @error('alamat')
+                                        <span class="invalid-feedback" role="alert">
+                                            <p>{{ $message }}</p>
+                                        </span>
+                                    @enderror
+                                </div>
+
+                                <div class="col-12">
+                                <label for="jenis_kelamin">Jenis Kelamin:</label>
+                                    <select name="jenis_kelamin" id="jenis_kelamin" required>
+                                        <option value="">Pilih Jenis Kelamin</option>
+                                        <option value="Laki-laki">Laki-laki</option>
+                                        <option value="Perempuan">Perempuan</option>
+                                    </select>
+                                    @error('jenis_kelamin')
+                                        <span class="invalid-feedback" role="alert">
+                                            <p>{{ $message }}</p>
+                                        </span>
+                                    @enderror
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="no_ktp" class="form-label">No KTP</label>
+                                    <input type="text" name="no_ktp" class="form-control" id="no_ktp" maxlength="16" required>
+                                    @error('no_ktp')
+                                        <span class="invalid-feedback" role="alert">
+                                            <p>{{ $message }}</p>
+                                        </span>
+                                    @enderror
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="no_hp" class="form-label">No HP</label>
+                                    <input type="text" name="no_hp" class="form-control" id="no_hp" maxlength="15">
+                                    @error('no_hp')
+                                        <span class="invalid-feedback" role="alert">
+                                            <p>{{ $message }}</p>
+                                        </span>
+                                    @enderror
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="pekerjaan" class="form-label">Pekerjaan</label>
+                                    <input type="text" name="pekerjaan" class="form-control" id="pekerjaan">
+                                    @error('pekerjaan')
                                         <span class="invalid-feedback" role="alert">
                                             <p>{{ $message }}</p>
                                         </span>
@@ -75,7 +138,6 @@
                                     <a class="btn btn-danger w-100" href="/login" role="button">Masuk</a>
                                 </div>
                             </form>
-
                         </div>
                     </div>
 
