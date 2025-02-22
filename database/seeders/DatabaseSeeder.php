@@ -33,7 +33,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'admin@gmail.com',
             'email_verified_at' => now(),
             'password' => bcrypt('1234'), // Ganti dengan password aman untuk produksi
-            'role_id' => 3, // Sesuaikan dengan ID peran admin di tabel roles
+            'role_id' => 3, 
             'tgl_lahir' => '1980-01-01',
             'alamat' => 'Kantor',
             'jenis_kelamin' => 'laki-laki',
