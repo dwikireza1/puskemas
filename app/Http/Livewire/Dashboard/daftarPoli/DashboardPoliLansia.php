@@ -32,7 +32,7 @@ class DashboardPoliLansia extends Component
     public function render()
     {
         return view('livewire.dashboard.daftar-poli.dashboard-poli-lansia', [
-            'poliLansia' => Antrian::where('poli', 'lansia & disabilitas')->where('is_call', 0)->paginate(10)
+            'poliLansia' => Antrian::where('poli', 'lansia')->where('is_call', 0)->paginate(10)
         ]);
     }
 }

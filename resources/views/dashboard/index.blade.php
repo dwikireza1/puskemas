@@ -56,7 +56,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xxl col-md-3">
+                    <!-- <div class="col-xxl col-md-3">
                         <div class="card info-card sales-card">
                             <div class="card-body">
                                 <h5 class="card-title">Poli THT</h5>
@@ -71,12 +71,12 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="col-xxl col-md-3">
                         <div class="card info-card sales-card">
                             <div class="card-body">
-                                <h5 class="card-title">Polia Lansa & Disabilitas</h5>
+                                <h5 class="card-title">Polia Lansia</h5>
 
                                 <div class="d-flex align-items-center">
                                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">

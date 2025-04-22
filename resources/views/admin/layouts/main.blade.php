@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Puskesmas Delanggu</title>
+    <title>Puskesmas Sambi</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -48,7 +48,7 @@
         <div class="d-flex align-items-center justify-content-between">
             <a href="/dashboard" class="logo d-flex align-items-center">
                 <img src="/assetsDashboard/img/logo.png" alt="">
-                <span class="d-none d-lg-block">Puskesmas Delanggu</span>
+                <span class="d-none d-lg-block">Puskesmas Sambi</span>
             </a>
             <i class="bi bi-list toggle-sidebar-btn"></i>
         </div><!-- End Logo -->
@@ -129,22 +129,15 @@
                 </ul>
                 <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                     <li>
-                        <a href="/admin/Jadwaldokter">
+                        <a href="/admin/jadwalDokter">
                             <i class="bi bi-circle"></i><span>Jadwal Dokter</span>
                         </a>
                     </li>
                 </ul>
                 <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                     <li>
-                        <a href="/admin/Jadwaldokter">
+                        <a href="/admin/antrian">
                             <i class="bi bi-circle"></i><span>Antrian</span>
-                        </a>
-                    </li>
-                </ul>
-                <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-                    <li>
-                        <a href="/admin/Jadwaldokter">
-                            <i class="bi bi-circle"></i><span>Jadwal Dokter</span>
                         </a>
                     </li>
                 </ul>
@@ -167,7 +160,7 @@
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
         <div class="copyright">
-            &copy; Copyright <strong><span>Puskesmas Delanggu</span></strong>. 2024
+            &copy; Copyright <strong><span>Puskesmas Sambi</span></strong>. 2024
         </div>
         <div class="credits">
             <!-- All the links in the footer should remain intact. -->

@@ -31,14 +31,7 @@ class JadwalDokterSeeder extends Seeder
                 'jam_mulai' => '15:00:00',
                 'jam_selesai' => '18:00:00',
             ],
-            [
-                'nip' => '123003',
-                'nama_dokter' => 'Dr. Budi Santoso',
-                'poli' => 'tht',
-                'sesi' => 'Pagi',
-                'jam_mulai' => '08:00:00',
-                'jam_selesai' => '12:00:00',
-            ],
+
             [
                 'nip' => '123004',
                 'nama_dokter' => 'Dr. Clara Dewi',

@@ -6,7 +6,7 @@ use Livewire\Component;
 use App\Models\User;
 use Livewire\WithPagination;
 
-class UserManajement extends Component
+class ShowUser extends Component
 {
     public $user_id, $name, $email, $role_id;
     use WithPagination;
@@ -64,7 +64,7 @@ class UserManajement extends Component
         $this->resetInput();
         $this->dispatchBrowserEvent('closeModal');
     }
-
+    
     public function deleteUser($user_id)
     {
         $this->user_id = $user_id;

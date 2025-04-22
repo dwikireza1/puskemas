@@ -3,7 +3,7 @@
 @include('partials.navbar')
 
 @section('content')
-<div >
+<div>
 <livewire:jadwal.show-jadwal>
 </div>
 @endsection

@@ -131,14 +131,10 @@
                             <i class="bi bi-circle"></i><span>Poli Gigi</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="/dashboard/antrian/poliTht">
-                            <i class="bi bi-circle"></i><span>Poli THT</span>
-                        </a>
-                    </li>
+
                     <li>
                         <a href="/dashboard/antrian/poliLansia">
-                            <i class="bi bi-circle"></i><span>Poli Lansia & Disablitas </span>
+                            <i class="bi bi-circle"></i><span>Poli Lansia </span>
                         </a>
                     </li>
                     <li>

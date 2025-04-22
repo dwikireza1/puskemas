@@ -18,8 +18,7 @@
                                     <option value="">Sortir Berdasarkan Poli</option>
                                     <option value="umum">Poli Umum</option>
                                     <option value="gigi">Poli Gigi</option>
-                                    <option value="tht">Poli THT</option>
-                                    <option value="lansia & disabilitas">Lansia & Disabilitas</option>
+                                    <option value="lansia">Lansia </option>
                                     <option value="balita">Balita</option>
                                     <option value="kia & kb">KIA & KB</option>
                                     <option value="nifas/pnc">Nifas / PNC</option>

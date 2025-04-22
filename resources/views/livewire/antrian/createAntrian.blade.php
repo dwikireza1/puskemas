@@ -90,8 +90,7 @@
                             <option selected>pilih Poli</option>
                             <option value="umum">Umum</option>
                             <option value="gigi">Gigi</option>
-                            <option value="tht">THT</option>
-                            <option value="lansia & disabilitas">Lansia & Disabilitas</option>
+                            <option value="lansia">Lansia</option>
                             <option value="balita">Balita</option>
                             <option value="kia & kb">KIA & KB</option>
                             <option value="nifas/pnc">Nifas / PNC</option>

@@ -12,7 +12,7 @@
 <div class="container">
   <div class="card" style="border: 1px solid black">
     <div class="card-body">
-      <h5 class="card-title" style="text-align: center">PUSKESMAS KLATEN</h5>
+      <h5 class="card-title" style="text-align: center">PUSKESMAS SAMBI</h5>
       <h6 class="card-subtitle mb-2 text-muted"style="text-align: center">Nomor Antrian</h6>
       <hr>
       @foreach ($detailAntrian as $item)
