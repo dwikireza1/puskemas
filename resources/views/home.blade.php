@@ -148,7 +148,7 @@
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Contact</h2>
+                    <h2>Kontak</h2>
                 </div>
             </div>
 
@@ -161,19 +161,19 @@
                         <div class="info">
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
-                                <h4>Location:</h4>
-                                <p>Alamat : Sambi, Boyolali, Jawa Tengah</p>
+                                <h4>Lokasi</h4>
+                                <p>Sambi, Boyolali, Jawa Tengah</p>
                             </div>
 
                             <div class="email">
                                 <i class="bi bi-envelope"></i>
-                                <h4>Email:</h4>
+                                <h4>Email</h4>
                                 <p>puskemassambi@gmail.com</p>
                             </div>
 
                             <div class="phone">
                                 <i class="bi bi-phone"></i>
-                                <h4>Call:</h4>
+                                <h4>Telepon</h4>
                                 <p>(0272)-</p>
                             </div>
 
@@ -187,26 +187,26 @@
                             <div class="row">
                                 <div class="col-md-6 form-group">
                                     <input type="text" name="name" class="form-control" id="name"
-                                        placeholder="Your Name" required>
+                                        placeholder="Nama" required>
                                 </div>
                                 <div class="col-md-6 form-group mt-3 mt-md-0">
                                     <input type="email" class="form-control" name="email" id="email"
-                                        placeholder="Your Email" required>
+                                        placeholder="Email" required>
                                 </div>
                             </div>
-                            <div class="form-group mt-3">
+                            <!-- <div class="form-group mt-3">
                                 <input type="text" class="form-control" name="subject" id="subject"
                                     placeholder="Subject" required>
-                            </div>
+                            </div> -->
                             <div class="form-group mt-3">
-                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                                <textarea class="form-control" name="message" rows="5" placeholder="Pesan" required></textarea>
                             </div>
                             <div class="my-3">
-                                <div class="loading">Loading</div>
+                                <div class="loading">Menunggu</div>
                                 <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                                <div class="sent-message">Pesan anda telah terkirim. Terima kasih!</div>
                             </div>
-                            <div class="text-center"><button type="submit">Send Message</button></div>
+                            <div class="text-center"><button type="submit">Kirim Pesan</button></div>
                         </form>
 
                     </div>
