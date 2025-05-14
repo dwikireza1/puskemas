@@ -12,7 +12,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Selamat Datang <span>| {{ auth()->user()->name }}</span></h5>
                             <div class="d-flex align-items-center">
-                                <h2>Daftar Antrian Rumah Sakit!</h2>
+                                <h2>Daftar antrian Puskesmas Sambi!</h2>
                             </div>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                     <div class="col-xxl col-md-4">
                         <div class="card info-card sales-card">
                             <div class="card-body">
-                                <h5 class="card-title">Poli KIA & KB</h5>
+                                <h5 class="card-title">Poli KIA&KB</h5>
 
                                 <div class="d-flex align-items-center">
                                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">

@@ -16,7 +16,7 @@
                                 <th scope="col">No Antrian</th>
                                 <th scope="col">Nama</th>
                                 <th scope="col">Alamat</th>
-                                <th scope="col">Jenis Kelamin</th>
+                                <th scope="col">Jenis kelamin</th>
                                 <th scope="col">Nomor HP</th>
                                 <th scope="col">Nomor KTP</th>
                                 <th scope="col">Tgl. Lahir</th>
@@ -65,11 +65,11 @@
         @auth
             <!-- Button Modal -->
             <button type="button" class="btn btn-primary my-3" data-bs-toggle="modal" data-bs-target="#createAntrian">
-                <i class="bi bi-file-plus me-1"></i>Ambil Antrian
+                <i class="bi bi-file-plus me-1"></i>Ambil antrian
             </button>
         @else
             <a href="/login" type="button" class="btn btn-primary my-3">
-                <i class="bi bi-file-plus me-1"></i>Login Untuk Ambil Antrian
+                <i class="bi bi-file-plus me-1"></i>Login untuk umbil antrian
             </a>
         @endauth
 
@@ -82,8 +82,8 @@
                         <option value="gigi">Poli Gigi</option>
                         <option value="lansia ">Poli Lansia</option>
                         <option value="balita">Poli Balita</option>
-                        <option value="kia & kb">Poli KIA & KB</option>
-                        <option value="nifas/pnc">Poli Nifas / PNC</option>
+                        <option value="kia & kb">Poli KIA&KB</option>
+                        <option value="nifas/pnc">Poli Nifas/PNC</option>
                     </select>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                                 <th scope="col">No Antrian</th>
                                 <th scope="col">Nama</th>
                                 <th scope="col">Alamat</th>
-                                <th scope="col">Jenis Kelamin</th>
+                                <th scope="col">Jenis kelamin</th>
                                 <th scope="col">Nomor HP</th>
                                 <th scope="col">Nomor KTP</th>
                                 <th scope="col">Tgl. Lahir</th>

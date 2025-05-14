@@ -117,7 +117,7 @@
 
             <li class="nav-item">
                 <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-                    <i class="bx bx-bar-chart-square"></i><span>Daftar Antrian</span><i
+                    <i class="bx bx-bar-chart-square"></i><span>Daftar antrian</span><i
                         class="bi bi-chevron-down ms-auto"></i>
                 </a>
                 <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
@@ -144,7 +144,7 @@
                     </li>
                     <li>
                         <a href="/dashboard/antrian/poliKia">
-                            <i class="bi bi-circle"></i><span>Poli KIA & KB</span>
+                            <i class="bi bi-circle"></i><span>Poli KIA&KB</span>
                         </a>
                     </li>
                     <li>

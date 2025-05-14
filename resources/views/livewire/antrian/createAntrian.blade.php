@@ -4,7 +4,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Form Ambil Antrian</h1>
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Form ambil antrian</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" wire:click="close_modal"
                     aria-label="Close"></button>
             </div>
@@ -25,7 +25,7 @@
                             readonly>
                     </div>
                     <div class="mb-3">
-                        <label>Nama Lengkap</label>
+                        <label>Nama lengkap</label>
                         <input type="text" wire:model="nama" class="form-control">
                         @error('nama')
                             <span class="text-danger">{{ $message }}</span>
@@ -41,7 +41,7 @@
                     <div class="mb-3">
                         <label>Jenis Kelamin</label>
                         <select class="form-select" wire:model="jenis_kelamin" aria-label="Default select example">
-                            <option selected>pilih Jenis Kelamin</option>
+                            <option selected>Pilih jenis kelamin</option>
                             <option value="laki-laki">Laki-laki</option>
                             <option value="perempuan">Perempuan</option>
                         </select>
@@ -64,7 +64,7 @@
                         @enderror
                     </div>
                     <div class="mb-3">
-                        <label>Tanggal Lahir</label>
+                        <label>Tanggal lahir</label>
                         <input type="date" wire:model="tgl_lahir" class="form-control">
                         @error('tgl_lahir')
                             <span class="text-danger">{{ $message }}</span>
@@ -85,15 +85,15 @@
                         @enderror
                     </div>
                     <div class="mb-3">
-                        <label>Ambil Antrian Untuk Poli</label>
+                        <label>Ambil antrian untuk poli</label>
                         <select class="form-select" wire:model="poli" aria-label="Default select example">
-                            <option selected>pilih Poli</option>
-                            <option value="umum">Umum</option>
-                            <option value="gigi">Gigi</option>
-                            <option value="lansia">Lansia</option>
-                            <option value="balita">Balita</option>
-                            <option value="kia & kb">KIA & KB</option>
-                            <option value="nifas/pnc">Nifas / PNC</option>
+                            <option selected>Pilih poli</option>
+                            <option value="umum">Poli Umum</option>
+                            <option value="gigi">Poli Gigi</option>
+                            <option value="lansia">Poli Lansia</option>
+                            <option value="balita">Poli Balita</option>
+                            <option value="kia & kb">Poli KIA&KB</option>
+                            <option value="nifas/pnc">Poli Nifas/PNC</option>
                         </select>
                         @error('poli')
                             <span class="text-danger">{{ $message }}</span>
