@@ -15,7 +15,7 @@
                         <div class="col-md-3">
                             <div class="mb-3">
                                 <select class="form-select" wire:model="search">
-                                    <option value="">Sortir Berdasarkan Poli</option>
+                                    <option value="">Sortir berdasarkan poli</option>
                                     <option value="umum">Poli Umum</option>
                                     <option value="gigi">Poli Gigi</option>
                                     <option value="lansia">Lansia </option>
